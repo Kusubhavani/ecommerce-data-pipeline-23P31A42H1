@@ -1,0 +1,44 @@
+# ===============================
+# DATABASE CONFIGURATION
+# ===============================
+database:
+  host: ${DB_HOST}
+  port: ${DB_PORT}
+  name: ${DB_NAME}
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+
+# ===============================
+# DATA GENERATION CONFIGURATION
+# ===============================
+data_generation:
+  customers: 1000
+  products: 500
+  transactions: 10000
+  min_items_per_transaction: 1
+  max_items_per_transaction: 5
+
+  transaction_date_range:
+    start_date: "2024-01-01"
+    end_date: "2024-12-31"
+
+# ===============================
+# PIPELINE CONFIGURATION
+# ===============================
+pipeline:
+  batch_size: 1000
+  retry_attempts: 3
+  retry_delay_seconds: 2
+  logging_level: INFO
+
+# ===============================
+# DATA RETENTION CONFIGURATION
+# ===============================
+retention:
+  days_to_keep: 7
+
+# ===============================
+# BI TOOL CONFIGURATION
+# ===============================
+bi_tool:
+  tool: tableau   # options: tableau | powerbi

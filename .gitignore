@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+
+# Environment variables
+.env
+.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.coverage

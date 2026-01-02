@@ -1,0 +1,9 @@
+{
+  "bi_tool": "powerbi",
+  "dashboard_name": "E-Commerce Analytics Dashboard",
+  "pages": 4,
+  "visualizations": 16,
+  "data_source": "PostgreSQL warehouse schema",
+  "exported_pdf": "dashboards/powerbi/dashboard_export.pdf",
+  "created_date": "2025-12-25"
+}

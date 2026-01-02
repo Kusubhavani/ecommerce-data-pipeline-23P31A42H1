@@ -1,0 +1,19 @@
+{
+    "pipeline_execution_id": "PIPE_20251226_213705",
+    "start_time": "2025-12-26T21:37:05.161622",
+    "steps_executed": {
+        "Data Generation": {
+            "status": "failed",
+            "duration_seconds": 6.12,
+            "retry_attempts": 3,
+            "error_message": "Command '['python', 'scripts/data_generation/generate_orders.py']' returned non-zero exit status 2."
+        }
+    },
+    "errors": [
+        "Command '['python', 'scripts/data_generation/generate_orders.py']' returned non-zero exit status 2."
+    ],
+    "warnings": [],
+    "status": "failed",
+    "end_time": "2025-12-26T21:37:11.286430",
+    "total_duration_seconds": 6.124808
+}
