@@ -105,7 +105,7 @@ ecommerce-data-pipeline/
 Clone the repository:
 
 ```
-git clone https://github.com/Kusubhavani/ecommerce-data-pipeline-2P31A42H1.git
+git clone https://github.com/Kusubhavani/ecommerce-data-pipeline-23P31A42H1.git
 cd ecommerce-data-pipeline-23P31A42H1
 ```
 
